@@ -1,0 +1,2 @@
+# Goadforpython
+这是一个基于goad实验靶场的某条攻击链的Python脚本
