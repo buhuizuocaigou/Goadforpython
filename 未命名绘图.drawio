@@ -1,9 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="第 1 页" id="JdVr-8pNIw_CuGiadl7r">
-    <mxGraphModel>
+    <mxGraphModel dx="1218" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ktglFJMUilXT2KL9u1CT-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="133.33" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="710" y="426.67" width="67.2" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="68.57" width="68" height="121.43" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-5" value="Domain Controller(DC设备)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220.97" y="447.02" as="sourcePoint" />
+            <mxPoint x="458.0034316574847" y="189.995796997908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ktglFJMUilXT2KL9u1CT-3" target="ktglFJMUilXT2KL9u1CT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="300" as="sourcePoint" />
+            <mxPoint x="280" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-12" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="129" y="380" as="sourcePoint" />
+            <mxPoint x="354.6413529036374" y="144.27999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-15" value="1. AS-REQ（Authentication Service Request）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="89.71" y="230.14" width="280.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-17" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="170" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-16" value="2. AS-REP（Authentication Service Reply Message）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="103.79" y="245.99" width="320.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-19" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. TGS-REQ（Ticket-Granting Service Request&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="149.09" y="277.8" width="274.14" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-20" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. TGS-REP（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Ticket Granting Service Reply&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="179.9997282150383" y="309.9997282150383" width="274.14" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-21" value="注：虚线表示的是在kerbero的黄金票据取代了这两个步骤" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="60" width="330" height="99.28" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ktglFJMUilXT2KL9u1CT-1" target="ktglFJMUilXT2KL9u1CT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-23" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
