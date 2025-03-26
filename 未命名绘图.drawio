@@ -62,8 +62,23 @@
             <mxPoint x="330" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ktglFJMUilXT2KL9u1CT-23" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="450" width="60" height="30" as="geometry" />
+        <mxCell id="ktglFJMUilXT2KL9u1CT-23" value="5 AP-REQ（Application Request)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="450" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ktglFJMUilXT2KL9u1CT-2" target="ktglFJMUilXT2KL9u1CT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-25" value="6. AP-REP（Authentication Protocol Reply)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="510" width="271" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-27" value="User`s Workstation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="562" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ktglFJMUilXT2KL9u1CT-28" value="Application Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="668.6" y="562" width="150" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
